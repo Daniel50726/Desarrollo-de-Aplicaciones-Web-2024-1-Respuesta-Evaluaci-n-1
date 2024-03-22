@@ -1,0 +1,99 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: normal;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.Supervisor, .Calculator {
+    width: 33%;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.TeamBuilder, .Karma {
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.TeamBuilder {
+    background: white;
+    border-top: 5px solid #ea5353;
+}
+
+.Supervisor {
+    background: white;
+    border-top: 5px solid #62dada;
+}
+
+.Karma {
+    margin-top: 50px;
+    background: white;
+    border-top: 5px solid #fc9b1d;
+}
+
+.Calculator {
+    background: white;
+    border-top: 5px solid #4a9dfc;
+}
+
+.logoContainer {
+    padding-right: 0;
+    padding-left: 80%;
+}
+
