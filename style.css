@@ -1,19 +1,24 @@
 body {
     background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .subtitulo {
     text-align: center;
-    font-weight: normal;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .titulo {
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .parrafo {
     text-align: center;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .container {
@@ -90,6 +95,11 @@ body {
 .Calculator {
     background: white;
     border-top: 5px solid #4a9dfc;
+}
+
+.parrafoCards {
+    font-weight: 200;
+    font-style: normal;
 }
 
 .logoContainer {
