@@ -52,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 33%;
-    padding: 20px;
+    padding: 10px;
     margin: 0 10px;
 }
 
@@ -70,7 +70,7 @@ body {
     width: 100%;
     text-align: left;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
     margin: 0 10px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -87,7 +87,7 @@ body {
 }
 
 .Karma {
-    margin-top: 50px;
+    margin-top: 10px;
     background: white;
     border-top: 5px solid #fc9b1d;
 }
